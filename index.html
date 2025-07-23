@@ -4,7 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- //font link noto sorif// -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- //font link inter// -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
 
 
     <title>Assignment-02: responsive layout design</title>
@@ -16,17 +31,26 @@
     <header>
         <nav class="navbar flex">
             <img src="assets/logo.png" alt="">
-                <ul class="nav-ul flex">
-                    <li class="list-item"><a href="">Home</a></li>
-                    <li class="list-item"><a href="">Shop</a></li>
-                    <li class="list-item"><a href="">About us</a></li>
-                    <!-- <i class="fa-whiteboard fa-semibold fa-cart-shopping"></i> -->
-                    <!-- <i class="fa-thin fa-cart-shopping"></i> -->
-                    <i class="fa-solid fa-cart-shopping" aria-hidden="true"></i>
-                </ul>
-                <!-- <i class="fa-whiteboard fa-semibold fa-cart-shopping"></i> -->
+            <ul class="nav-ul flex">
+                <li style="font-weight: bold;" class="list-item "><a style="color: rgba(37, 36, 50, 1);" href="">Home</a></li>
+                <li class="list-item"><a href="">Shop</a></li>
+                <li class="list-item"><a href="">About us</a></li>
+                <li class="list-item"> <i class="fa-solid fa-cart-shopping" aria-hidden="true"></i>Cart($56)</li>
+                
+            </ul>
+            <!-- <i class="fa-whiteboard fa-semibold fa-cart-shopping"></i> -->
 
         </nav>
+
+        <section class="banner flex">
+            <div class="banner-mom">
+                <h3 class="banner-title ban noto-serif">ALWAYS <span class="orange-text">FRESH</span></h3>
+                <h3 class="banner-title ban orange-text noto-serif">FLOWERS</h3>
+                <p class="banner-para-color inter">Indulge your senses with the beauty and fragrance of <br>our fresh flower shop. From classic roses to exotic <br>blooms, we offer a wide variety of fresh flowers that <br>are perfect for any occasion. </p>
+            </div class="">
+            <img class="banner-image" src="assets/hero-flower.png" alt="">
+
+        </section>
 
     </header>
 

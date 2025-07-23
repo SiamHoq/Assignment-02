@@ -1,6 +1,23 @@
 /* ///google font styles/// */
 
 
+.noto-serif{
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 
 /* ///shared style/// */
 
@@ -8,21 +25,68 @@
     display: flex;
 }
 
+.banner-para-color{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.banner-title{
+    font-size: 65px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.orange-text{
+    color: rgba(233, 90, 8, 1);
+}
+
+/* .margin-down{
+    margin-bottom: 120px;
+} */
+
+
+
+/* /// body styles /// */
 .navbar{
     justify-content: space-around;
     align-items: center;
+    margin: 0 150px;
 }
+
 
 .navbar a{
     text-decoration: none;
-    
+    list-style: none;
+    color:  rgba(137, 135, 161, 1);
 }
-.nav-ul{
-    
-}
+
 
 .list-item{
     list-style: none;
     margin-right: 48px;
+    color: black;
 
 }
+
+/* ///banner styles/// */
+
+.banner{
+    margin-top: 120px;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-mom{
+    padding-top: 162px;
+}
+.banner-image{
+    padding-top: 106px;
+    padding-bottom: 50px;
+}
+.ban{
+    margin: 0px;
+    padding: 0px;
+}
+.bn{
+    margin: 0px;
+    padding: 0px;
+}
+
