@@ -1,0 +1,28 @@
+/* ///google font styles/// */
+
+
+
+/* ///shared style/// */
+
+.flex{
+    display: flex;
+}
+
+.navbar{
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar a{
+    text-decoration: none;
+    
+}
+.nav-ul{
+    
+}
+
+.list-item{
+    list-style: none;
+    margin-right: 48px;
+
+}
