@@ -99,6 +99,7 @@
 .latest-part{
     text-align: center;
     margin: 125px 0px;
+    
 }
 
 /* /// offer card style /// */
@@ -143,6 +144,7 @@
     display: flex;
     gap: 25px;
     justify-content: center;
+    margin-bottom: 150px;
 }
 
 .search-section{
@@ -185,7 +187,7 @@
 .Plants-Lover{
     justify-content: center;
     margin: 0 150px;
-    margin-bottom: 130px;
+    /* margin-bottom: 210px; */
     
 }
 

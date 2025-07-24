@@ -34,6 +34,16 @@
     color: rgba(0, 0, 0, 1);
 }
 
+.descript{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 22px;
+}
+
+
+.orange-background{
+    background-color: rgba(233, 90, 8, 1);
+}
+
 .orange-text{
     color: rgba(233, 90, 8, 1);
 }
@@ -95,6 +105,19 @@
     padding: 0px;
 }
 
+/* //latest  part /// */
+.latest-part{
+    text-align: center;
+    margin: 125px 0px;  
+}
+
+.text-font{
+    font-size: 50px;
+    padding: 0px;
+    margin: 0px;
+}
+
+
 @media screen and (max-width: 576px) {
 
     .list-item{
@@ -120,4 +143,10 @@
     .banner-mom{
         padding-left: 10px;
     }
+
+    .latest-part{
+        justify-content: center;
+        padding-left: 40px;
+    }
+
 }
