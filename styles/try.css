@@ -1,0 +1,214 @@
+/* ///google font styles/// */
+
+
+.noto-serif{
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/* ///shared style/// */
+
+.flex{
+    display: flex;
+}
+
+.descript{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 22px;
+}
+
+.orange-background{
+    background-color: rgba(233, 90, 8, 1);
+}
+.orange-text{
+    color: rgba(233, 90, 8, 1);
+}
+
+.color-w1{
+    color: rgba(255, 255, 255, 1);
+}
+
+/* ///main class style/// */
+
+.display-container{
+    margin: 0 150px;
+    justify-content: space-around;
+}
+
+.text-font{
+    font-size: 50px;
+    padding: 0px;
+    margin: 0px;
+}
+ 
+
+.display-plants{
+    text-align: center;
+}
+
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    margin-top: 49px;
+    
+}
+
+.card{
+    justify-content: center;
+    padding-left: 0px;
+    padding-bottom: 30px;
+    padding-right: 0px;
+    padding-top: 0px;
+    margin: 0px;
+
+}
+
+.button-detail{
+    font: 16px;
+    border: none;
+    padding: 19px 80px;
+    color: rgba(255, 255, 255, 1)
+}
+
+.card img{
+    width: 250px;
+    height: 322.94px;
+}
+
+.card-description{
+    font-size: 22px;
+    text-align: center;
+}
+
+/* /// latest part /// */
+
+.latest-part{
+    text-align: center;
+    margin: 125px 0px;
+}
+
+/* /// offer card style /// */
+
+
+.flowercard{
+    
+    height: 130px;
+    width: 367px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    text-align: center;
+    /* justify-content: center;
+      vertical-align: middle; */
+      padding-top: 65px;
+      margin-bottom: 25px;
+}
+
+.flower-h3{
+
+}
+..flower-h3{
+
+}
+
+.flowercard-1{
+    background-image: url(../assets/deal-bloom.png);
+}
+
+.flowercard-2{
+    background-image: url(../assets/deal-ana.png);
+}
+.flower-right{
+    background-image: url(../assets/deal-zabo.png);
+    width: 730px;
+    height: 350px;
+    padding-top: 170px;
+
+}
+
+.flower-offer{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+}
+
+.search-section{
+    background-image: url(../assets/news-letter-bg.png);
+    width: 1400px;
+    height: 630px;
+    background-repeat: no-repeat;
+    /* justify-content: center;
+    align-items: center;
+    vertical-align: middle;  */
+    justify-items: center;
+    margin-left: 75px;
+}
+
+.src{
+    margin: 0px;
+    padding-top: 10px;
+    
+}
+
+.search-section{
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    padding-top: 170px;
+}
+
+.btn{
+    padding: 10px 50px;
+    border: none;
+}
+
+.email{
+    width: 500px;
+    padding: 9px 0px;
+}
+
+/* /// Flower & Plants Lover style /// */
+
+.Plants-Lover{
+    justify-content: center;
+    margin: 0 150px;
+    margin-bottom: 130px;
+    
+}
+
+.plant-pera{
+    padding-left: 30px;
+    padding-top: 86px;
+}
+
+.badge img{
+    height: 286px;
+    width: 286px;
+    transform: rotate(360deg);
+    position: absolute;
+    /* padding-right: 1150px; */
+    left: 360px;
+    /* margin-bottom: 50px; */
+    top: -140px;
+    /* right: 200px; */
+    
+}
+.image-mom{
+    position: relative;
+}
+.badge{
+    transform: rotate(360 deg);
+}
