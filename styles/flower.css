@@ -278,7 +278,13 @@
 .search-section div{
     display: flex;
     flex-direction: row;
-    width: 700px;
+    /* width: 600px; */
+
+}
+
+.ppn{
+    padding-right: 400px;
+    max-width:644px;
 }
 
 
