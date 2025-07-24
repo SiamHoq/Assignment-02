@@ -6,8 +6,10 @@
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
+    font-size: 50px;
     font-variation-settings:
         "wdth" 100;
+
 }
 
 
@@ -16,6 +18,7 @@
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    font-size: 22px;
 }
 
 
@@ -108,6 +111,7 @@
 
 .grand-mom {
     text-align: center;
+    margin-bottom: 100px;
 }
 
 
@@ -228,7 +232,8 @@
 .Plants-Lover {
     justify-content: center;
     margin: 0 150px;
-    /* margin-bottom: 210px; */
+    margin-bottom: 150px;
+    margin-top: 150px;
 
 }
 
@@ -258,7 +263,51 @@
     transform: rotate(360 deg);
 }
 
+/* /// Search section/// */
+.search-section{
+    background-image: url(../assets/news-letter-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 200px 0px;
+}
+.search-section div{
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+}
 
+
+
+/* // Footer Section /// */
+
+.footer{
+    justify-content: center;
+    max-width: 1440px;
+    margin: 0 auto;   
+    padding: 50px 0px;
+    gap: 110px;
+}
+.footer-no-1{
+    max-width: 359px;
+}
+
+
+.footer-no-2, .footer-no-3{
+    flex-direction: column;
+    gap: 32px;
+    color: rgba(107, 114, 128, 1);
+    font-size: 1rem;
+}
+
+.footer-no-4{
+    /* align-items: center; */
+    gap: 24px;
+}
 
 
 
