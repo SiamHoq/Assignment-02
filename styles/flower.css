@@ -34,9 +34,21 @@
     color: rgba(0, 0, 0, 1);
 }
 
+.text-font{
+    font-size: 50px;
+    padding: 0px;
+    margin: 0px;
+}
+
+
 .descript{
     color: rgba(0, 0, 0, 0.5);
     font-size: 22px;
+}
+
+
+.color-w1{
+    color: rgba(255, 255, 255, 1);
 }
 
 
@@ -87,6 +99,7 @@
     margin-top: 120px;
     justify-content: center;
     align-items: center;
+    margin-bottom: 150px;
 }
 
 .banner-mom{
@@ -111,11 +124,89 @@
     margin: 125px 0px;  
 }
 
-.text-font{
-    font-size: 50px;
-    padding: 0px;
-    margin: 0px;
+
+
+/* /// offer card style /// */
+
+.flower-offer{
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    margin-bottom: 150px;
 }
+
+.flowercard{
+    
+    height: 130px;
+    width: 367px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    text-align: center;
+    /* justify-content: center;
+      vertical-align: middle; */
+      padding-top: 65px;
+      margin-bottom: 25px;
+}
+
+.flower-h3{
+
+}
+..flower-h3{
+
+}
+
+.flowercard-1{
+    background-image: url(../assets/deal-bloom.png);
+}
+
+.flowercard-2{
+    background-image: url(../assets/deal-ana.png);
+}
+.flower-right{
+    background-image: url(../assets/deal-zabo.png);
+    width: 680px;
+    height: 280px;
+    padding-top: 170px;
+
+}
+
+
+/* /// Flower & Plants Lover style /// */
+
+.Plants-Lover{
+    justify-content: center;
+    margin: 0 150px;
+    /* margin-bottom: 210px; */
+    
+}
+
+.plant-pera{
+    padding-left: 30px;
+    padding-top: 86px;
+}
+
+.badge img{
+    height: 286px;
+    width: 286px;
+    transform: rotate(360deg);
+    position: absolute;
+    /* padding-right: 1150px; */
+    left: 360px;
+    /* margin-bottom: 50px; */
+    top: -140px;
+    /* right: 200px; */
+    
+}
+
+.image-mom{
+    position: relative;
+}
+.badge{
+    transform: rotate(360 deg);
+}
+
+
+
 
 
 @media screen and (max-width: 576px) {
@@ -147,6 +238,26 @@
     .latest-part{
         justify-content: center;
         padding-left: 40px;
+        margin-bottom: 100px;
     }
 
+    /* //flower card// */
+
+    .flower-offer{
+        flex-direction: column;
+        width: 360px;
+        height: 206px;
+        justify-content:unset;
+    }
+
+    .flower-right{
+        width: 360px;
+        height: 160px;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+
+
+   
 }
