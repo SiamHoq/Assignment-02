@@ -59,6 +59,7 @@
     border: none;
     padding: 19px 85px;
     color: rgba(255, 255, 255, 1);
+    
 }
 
 /* /// Navbar style  */
@@ -124,31 +125,38 @@ nav {
 
 /* /// Display plant cards */
 
-.plant-description{
+.plant-description {
 
-    flex-direction: column ;
+    flex-direction: column;
     text-align: center;
     margin-bottom: 49px;
+    font-size: 22px;
 }
-.wdt{
+
+.Plant-content>h5,
+h2 {
+    font-size: 22px;
+}
+
+.wdt {
     width: 888px;
     font-size: 22px;
     text-align: center;
     margin: 0 auto;
 }
 
-.card{
+.card {
     text-align: center;
     max-width: 270px;
 }
 
-.Plant-content{
+/* .Plant-content{
     font-size: 22px;
-}
+} */
 
-.mother-container{
+.mother-container {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     align-items: center;
     justify-content: center;
@@ -168,6 +176,7 @@ nav {
     gap: 40px;
 
 }
+
 
 
 .badge img {
@@ -276,7 +285,6 @@ nav {
     margin: 0 auto;
     padding: 200px 0px;
     border-radius: 5px;
-
     margin-bottom: 100px;
 }
 
@@ -285,6 +293,10 @@ nav {
     flex-direction: row;
     width: 600px;
 
+}
+
+.search-font{
+    padding-left: 84px;
 }
 
 .search-section>h3 {
@@ -328,6 +340,11 @@ nav {
 }
 
 
+    .kkk {
+        margin-top: 10px;
+    }
+
+
 @media screen and (max-width: 576px) {
 
     .same-list,
@@ -345,7 +362,7 @@ nav {
         max-width: 361px;
         justify-content: space-between;
 
-    }    
+    }
 
     .banner {
         flex-direction: column-reverse;
@@ -374,31 +391,44 @@ nav {
     }
 
     /* /// Display plant cards */
-    .plant-description{
+    .plant-description {
         max-width: 393px;
     }
 
-    .display-plant-title{
+    .display-plant-title {
         font-size: 24px;
     }
 
-    .wdt{
+    .Plant-content>h5,
+    h2 {
+        font-size: 16px;
+    }
+
+    /* .Plant-content>button{
+        max-width: 190px;
+    } */
+
+    .regular-font{
+        font-size: 14px;
+    }
+
+    .wdt {
         max-width: 336px;
         text-align: center;
         font-size: 14px;
     }
 
-    .card{
+    .card {
         max-width: 171px;
     }
 
-    .card-image>img{
+    .card-image>img {
         width: 171px;
     }
 
-    .mother-container{
+    .mother-container {
         /* margin: 24px 14px ; */
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(2, 1fr);
         max-width: 360px;
         margin: 0 auto;
         justify-content: center;
@@ -407,7 +437,7 @@ nav {
 
     }
 
-    .plant-display-container{
+    .plant-display-container {
         width: 360px;
     }
 
@@ -422,6 +452,10 @@ nav {
 
     .image-flower-store>img {
         max-width: 368px;
+    }
+
+    .plant-small{
+        font-size: 24px;
     }
 
     .plant-pera {
@@ -442,7 +476,8 @@ nav {
     }
 
     .latest-part {
-        margin-top: 50px;
+        margin: 50px 0px;
+        /* margin-bottom: ; */
     }
 
 
@@ -457,6 +492,7 @@ nav {
         max-width: 361px;
         display: flex;
         flex-direction: column;
+        margin-bottom: 50px;
     }
 
     .flower-mobile-card {
@@ -480,7 +516,13 @@ nav {
 
     /* /// search section */
 
-    .search-section {}
+    .search-section{
+        padding: 100px 0px;
+        margin-bottom: 50px;
+        border-radius: 0px;
+        max-width: 393px;
+
+    }
 
     .nnn {
         display: flex;
@@ -497,10 +539,11 @@ nav {
         font-size: 20px;
         font-weight: bold;
         text-align: center;
+        padding-left: 0px;
     }
 
     .button-detail {
-        width: 103px;
+        width: 171px;
         padding: 15px 20px;
     }
 
